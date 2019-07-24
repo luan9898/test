@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\DB;
 
 class Page extends Model
 {
+    // luân  balala
     //chon tat ca tu bang va tra lai
     public static function getuserData($id=null){
         $value=DB::table('user')->orderBy('id','asc')->get();
